@@ -275,7 +275,7 @@ async function experimentInit() {
 ];
 
 // Generate a random number (0~10, to match the list index)
-emoIndex = getRandomInt(0, 10);
+emoIndex = getRandomInt(0, 11);
 psychoJS.experiment.addData('continuous_emotion_type', emoIndex);
 
 // Assign the selected emotion text to a variable
